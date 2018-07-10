@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>高级定制旅游</title>
+		<meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="css/amazeui.min.css" type="text/css"/>
+		<link rel="stylesheet" href="css/app.css" type="text/css"  />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/amazeui.min.js"></script>
+	</head>
+	<body style=" background: #f5f5f5;">
+		<header data-am-widget="header" class="am-header am-header-default personal-head ">
+			<div class="am-header-left am-header-nav">
+				<a href="javascript:history.back()" class="">
+					<i class="am-icon-chevron-left"></i>
+				</a>
+			</div>
+			<h1 class="am-header-title">
+  	            <a href="" class="">私人定制</a>
+            </h1>
+	    </header>
+	    <div class="banner"><img src="images/banner.jpg"></div>
+	    <div class="banner"><img src="images/title.jpg"></div>
+	    <div class="personal" style="border-top: 0;">
+	    	<div class="title"><img src="images/xq.png" width="28" />旅行需求<span>（必填）</span></div>
+	    </div>
+	    <ul class="address">
+	    	<li>
+	    		<span>出发城市</span>
+	    		<a href="selectaddress.html"><input type="text" placeholder="选择出发城市" class="add-input"/></a>
+	    		<i class="am-icon-angle-right" style="float: right; margin-top: 5px;"></i>
+	    	</li>
+	    	<li>
+	    		<span>目的地</span>
+	    		<a href="destination.html"><input type="text" placeholder="选择目的地" class="add-input"/></a>
+	    		<i class="am-icon-angle-right" style="float: right; margin-top: 5px;"></i>
+	    	</li>
+	    	<li>
+	    		<span>出发时间</span>
+	    		<input type="text" class="timezao" placeholder="最早" data-am-datepicker readonly required />
+	    		<input type="text" class="timewan" placeholder="最晚" data-am-datepicker readonly required />
+	    	</li>
+	    	<li>
+	    		<span>旅行天数</span>
+	    		<input type="text" class="timezao" placeholder="" />
+	    		<i class="timenum">天</i>
+	    	</li>
+	    	<li>
+	    		<span>出发人数</span>
+	    		<input type="text" class="timezao" placeholder="成人"/>
+	    		<input type="text" class="timewan" placeholder="儿童"/>
+	    	</li>
+	    </ul>
+	    <div class="personal">
+	    	<div class="title"><img src="images/infor.png" width="28" />联系人信息<span>（必填）</span></div>
+	    </div>
+	    <ul class="address">
+	    	<li>
+	    		<span>您的称呼</span>
+	    		<input type="text" placeholder="方便客服与您联系" class="add-input"/>
+	    	</li>
+	    	<li>
+	    		<span>联系电话</span>
+	    		<input type="text" placeholder="方便客服与您联系" class="add-input"/>
+	    	</li>
+	    	<li>
+	    		<span>E-mail</span>
+	    		<input type="text" placeholder="方便客服与您联系" class="add-input"/>
+	    	</li>
+	    </ul>
+	    <div class="personal">
+	    	<div class="title"><img src="images/bz.png" width="28" />需求备注<span>（非必填）</span></div>
+	    </div>
+	    <textarea placeholder="请输入其他特殊要求，如对接送机，房间数，导游要求等" class="bz"></textarea>
+	    <ul class="copy">
+			<li>
+				<a href="" class="contact-style">
+					<img src="images/weixin1.png" width="25" />
+					<p>微信客服</p>
+				</a>
+				<a href=" tel:021-60538887" class="contact-style" style="border-left: 1px solid #ddd;">
+					<img src="images/tele.png"  width="25"/>
+					<p>咨询客服</p>
+				</a>
+			</li>
+			<li><a href="" class="submin-btn">提交</a></li>
+		</ul>
+	</body>
+</html>

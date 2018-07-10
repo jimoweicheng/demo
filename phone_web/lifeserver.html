@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>高级定制旅游</title>
+		<meta name="description" content="">
+        <meta name="keywords" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+		<link rel="stylesheet" href="css/amazeui.min.css" type="text/css"/>
+		<link rel="stylesheet" href="css/app.css" type="text/css"  />
+		<script src="js/jquery.min.js"></script>
+		<script src="js/amazeui.min.js"></script>
+	</head>
+	<body  style=" background: #000;">
+		<header data-am-widget="header" class="am-header am-header-default personal-head ">
+			<div class="am-header-left am-header-nav">
+				<!-- 按钮触发器， 需要指定 target -->
+				<button class="am-btn am-btn-primary am-icon-bars category" data-am-offcanvas="{target: '#doc-oc-demo2', effect: 'push'}"></button>
+				<!-- 侧边栏内容 -->
+				<div id="doc-oc-demo2" class="am-offcanvas">
+				  <div class="am-offcanvas-bar">
+				    <div class="am-offcanvas-content">
+	                     <p><a href="index.html">首页 <i class="iconfont">&#xe601;</i></a></p>
+	                    <p><a href="lifeserver.html">生活服务<i class="iconfont">&#xe601;</i></a></p>
+	                    <p><a href="service.html">出行服务<i class="iconfont">&#xe601;</i></a></p>
+	                    <p><a href="business.html">事业服务<i class="iconfont">&#xe601;</i></a></p>
+	                    <p><a href="personal.html">私人定制<i class="iconfont">&#xe601;</i></a></p>
+				    </div>
+				  </div>
+				</div>
+		   </div>
+		   <div class="s-logo"><a href="index.html"><img src="images/s-logo.png" width="80"/></a></div>
+           <div class="am-header-right am-header-nav">
+				<a href="javascript:history.back()" class="">
+					<a href=""><i class="iconfont">&#xe600;</i></a>
+				</a>
+			</div>
+	    </header>
+	    <div class="banner"><img src="images/banner1.jpg"/></div>
+	    <ul class="s-menu">
+	    	<li><span>服务</span></li>
+	    	<li><a href="lifeserver.html">生活服务</a></li>
+	    	<li><a href="service.html">出行服务</a></li>
+	    	<li><a href="business.html">事业服务</a></li>
+	    </ul>
+	    <section class="content-wrapper">
+            <div class="content" >
+              <div class="rights">
+                <ul class="list clearfix">
+                  <li class="item">
+                    <img src="images/hwg.jpg" alt="">
+                    <div class="content">
+                      <p class="title">  海外代购 </p>
+                      <p>管家为您提供全球范围内酒店预定，涵盖个性化民宿、3星级快捷酒店至5星级豪华酒店，有第三方问题协助维权以保障完美入住体验，助您安心出行。 </p>
+                      <button class="more"  data-am-modal="{target: '#doc-modal-1', closeViaDimmer: 0, width: 300, height: 225}">了解更多</button>
+                    </div>
+                  </li>
+                  <li class="item">
+                    <img src="images/yw.jpg" alt="">
+                    <div class="content">
+                      <p class="title">  各类疑问解答 </p>
+                      <p>管家为您提供全球范围内酒店预定，涵盖个性化民宿、3星级快捷酒店至5星级豪华酒店，有第三方问题协助维权以保障完美入住体验，助您安心出行。 </p>
+                     <button class="more"  data-am-modal="{target: '#doc-modal-2', closeViaDimmer: 0, width: 300, height: 225}">了解更多</button>
+                    </div>
+                  </li>
+                   
+                </ul>
+        </section>
+        <!--酒店管理-->
+        <div class="am-modal am-modal-no-btn" tabindex="-1" id="doc-modal-1">
+		  <div class="am-modal-dialog">
+		    <div class="am-modal-hd" style="text-align: left; color: #DAB866;">海外代购
+		      <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>&times;</a>
+		    </div>
+		    <div class="am-modal-bd" style="text-align: left;">
+		     <div class="wenzi">
+			    		管家为您提供全球范围内酒店预定，涵盖个性化民宿、3星级快捷酒店至5星级豪华酒店，<br />
+                                           有第三方问题协助维权以保障完美入住体验，助您安心出行。<br />
+						服务细节：<br />
+						☆ 全球范围内酒店在线预订<br />
+						☆ 国内酒店全网比价<br />
+						☆ 自有渠道保障低价<br />
+						
+						承诺：<br />
+						☆ 真人管家7*16小时在线服务<br />
+						☆ 因第三方产生的服务问题，将协助您进行合理维权<br />
+						
+						用户须知：<br />
+						☆ 会员需支付酒店房费或相关费用<br />
+			    	</div>
+		    </div>
+		  </div>
+		</div>
+        <!--各类疑问解答-->
+        <div class="am-modal am-modal-no-btn" tabindex="-1" id="doc-modal-2">
+		  <div class="am-modal-dialog">
+		    <div class="am-modal-hd" style="text-align: left; color: #DAB866;">各类疑问解答
+		      <a href="javascript: void(0)" class="am-close am-close-spin" data-am-modal-close>&times;</a>
+		    </div>
+		    <div class="am-modal-bd" style="text-align: left;">
+		     <div class="wenzi">
+			    		管家为您提供全球范围内酒店预定，涵盖个性化民宿、3星级快捷酒店至5星级豪华酒店，<br />
+                                           有第三方问题协助维权以保障完美入住体验，助您安心出行。<br />
+						服务细节：<br />
+						☆ 全球范围内酒店在线预订<br />
+						☆ 国内酒店全网比价<br />
+						☆ 自有渠道保障低价<br />
+						
+						承诺：<br />
+						☆ 真人管家7*16小时在线服务<br />
+						☆ 因第三方产生的服务问题，将协助您进行合理维权<br />
+						
+						用户须知：<br />
+						☆ 会员需支付酒店房费或相关费用<br />
+			    	</div>
+		    </div>
+		  </div>
+		</div>
+		<div style="height: 50px;"></div>
+		<ul class="contact">
+			<li>
+				<a href="">
+				<img src="images/weixin1.png" width="25" />
+				<p>微信客服</p>
+				</a>
+			</li>
+			<li>
+				<a href="tel: 021-60538887">
+				<img src="images/tele.png" width="25" />
+				<p>咨询客服</p>
+				</a>
+			</li>
+		</ul>
+	</body>
+</html>
